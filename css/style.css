@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Loos Normal";
+  src: url("LoosNormal-Bold.woff2") format("woff2"),
+    url("../fonts/LoosNormal-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Loos Normal";
+  src: url("LoosNormal-Black.woff2") format("woff2"),
+    url("../fonts/LoosNormal-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Loos Normal";
+  src: url("LoosNormal-Light.woff2") format("woff2"),
+    url("../fonts/LoosNormal-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Loos Normal";
+  src: url("LoosNormal-Medium.woff2") format("woff2"),
+    url("../fonts/LoosNormal-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Loos Normal";
+  src: url("LoosNormal-ExtraLight.woff2") format("woff2"),
+    url("../fonts/LoosNormal-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Loos Normal";
+  src: url("LoosNormal-Regular.woff2") format("woff2"),
+    url("../fonts/LoosNormal-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Loos Normal";
+  src: url("LoosNormal-Thin.woff2") format("woff2"),
+    url("../fonts/LoosNormal-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("NeueMontreal-Italic.woff2") format("woff2"),
+    url("../fonts/NeueMontreal-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("NeueMontreal-Bold.woff2") format("woff2"),
+    url("../fonts/NeueMontreal-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("NeueMontreal-Light.woff2") format("woff2"),
+    url("../fonts/NeueMontreal-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("NeueMontreal-Medium.woff2") format("woff2"),
+    url("../fonts/NeueMontreal-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Adobe Arabic";
+  src: url("AdobeArabic-Regular.woff2") format("woff2"),
+    url("../fonts/AdobeArabic-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("NeueMontreal-MediumItalic.woff2") format("woff2"),
+    url("../fonts/NeueMontreal-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("NeueMontreal-Regular.woff2") format("woff2"),
+    url("../fonts/NeueMontreal-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Neue Montreal", sans-serif;
+  color: #000;
+}
+
+.font-2 {
+  font-family: "Loos Normal", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+input:focus,
+input:focus-visible,
+input:focus-within,
+button:focus,
+button:focus-visible,
+button:focus-within,
+textarea:focus,
+textarea:focus-visible,
+textarea:focus-within {
+  outline: unset;
+  box-shadow: unset;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* .font-2 {
+    font-family: "Inter", sans-serif;
+} */
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/*  STYLING START */
+/*  STYLING FINISHED */
